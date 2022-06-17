@@ -1,0 +1,54 @@
+.app {
+	height: 100vh;
+	background-color: magenta;
+}
+
+.app_nav {
+	background-color: #fff; /* Over-rides magenta */
+	height: 80px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.app button {
+	cursor: pointer;
+	font-size: medium;
+	border: none;
+	outline: none;
+	padding: 6px 12px;
+	border-radius: 3px;
+	color: rgb(0, 0, 46);
+	background-color: lightgray;
+	transition: 100ms ease;
+}
+
+.app button:hover {
+	color: blue;
+}
+
+.app button:active {
+	transform: translateY(2px); /* 2 px upper niche jaaga */
+}
+
+.app_modal {
+	padding: 3px;
+}
+
+.app_modal p {
+	font-size: 3rem;
+}
+
+.app_dropdown {
+	position: relative;
+}
+
+.app_dropdown li {
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	background-color: white;
+	font-size: 2rem;
+	list-style: none;
+	white-space: nowrap;
+}

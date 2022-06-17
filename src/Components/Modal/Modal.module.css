@@ -1,0 +1,20 @@
+/* For modal, css plays an important part */
+.modal {
+	min-height: 100vh; /* For covering full screen */
+	height: 100; /* This saves from overflow */
+	width: 100%;
+	position: fixed;
+	top: 0; /* No space from the top of view space */
+	background-color: rgba(0, 0, 0, 0.64);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* Above three line will be responsible for centering the content of the modal */
+	z-index: 20; /* Now it is at the top of every other */
+}
+
+.modal_container {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.16);
+}

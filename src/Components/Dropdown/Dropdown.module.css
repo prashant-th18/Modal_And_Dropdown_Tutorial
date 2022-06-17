@@ -1,0 +1,11 @@
+/* In case of dropdown, we take use of position feature of css */
+.dropdown {
+	min-height: 40px;
+	min-width: 80px;
+	width: fit-content;
+	height: fit-content;
+	/* fir-content means jitna content aaega us hisaab se adjust hoega */
+	position: absolute;
+	top: 100%;
+	right: 0;
+}
